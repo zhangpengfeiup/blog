@@ -1,3 +1,4 @@
+```
 <?php
 class Singleton {
 	private static $instance = NULL;
@@ -29,5 +30,5 @@ class Singleton {
 $a = Singleton::getInstance();
 $b = Singleton::getInstance();
 var_dump($a === $b);
-
+```
 
