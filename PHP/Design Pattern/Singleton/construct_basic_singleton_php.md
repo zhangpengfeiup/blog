@@ -1,3 +1,4 @@
+```
 <?php
     class Singleton {
 	public function __construct() {
@@ -18,3 +19,4 @@
     $b = Singleton::getInstance();
     $c = Singleton::getInstance();
     var_dump($a === $b);  
+```
