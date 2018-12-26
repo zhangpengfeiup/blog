@@ -1,3 +1,4 @@
+```
 <?php
   class Singleton {
 	 public static $instance = NULL;
@@ -22,3 +23,4 @@
    $b = clone($a);
 
     var_dump($a === $b);
+```
