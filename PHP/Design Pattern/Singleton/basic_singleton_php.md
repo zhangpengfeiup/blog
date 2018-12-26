@@ -1,3 +1,4 @@
+```
 <?php
      class Study {
 	 public static $instance = NULL;
@@ -15,4 +16,4 @@
     $b = Study::getInstance();
 
     var_dump($a === $b);
-
+```
