@@ -1,3 +1,4 @@
+```
 <?php
      class Singleton {
 	 
@@ -7,4 +8,4 @@
     $b = new Singleton;
 
     var_dump($a === $b);
-
+```
