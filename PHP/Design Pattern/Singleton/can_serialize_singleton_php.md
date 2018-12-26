@@ -1,3 +1,4 @@
+```
 <?php
 class Singleton {
      private static $instance = NULL;
@@ -30,3 +31,4 @@ $a = Singleton::getInstance();
 $b = unserialize(serialize($a));
 
 var_dump($a === Singleton::getInstance());
+```
