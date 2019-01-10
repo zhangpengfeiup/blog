@@ -34,7 +34,7 @@ Todo:
 - 二叉树的抽象类型和表示方法
 	
 ### 6. 图
-[邻接表的创建](./DataStructure/Graph/邻接表.md) 数组 + 链表 = 邻接表
+[邻接表的创建](./DataStructure/Graph/邻接表.md) (数组 + 链表 = 邻接表)
 
 ### 自己的一些思考:
    [由数据结构想到拼积木](./DataStructure/Think/由数据结构想到拼积木.md)
