@@ -40,16 +40,50 @@ Todo:
 - 并发队列
 
 ### 5.串
-	
+- 字符串匹配
+- BF算法
+- RK算法
+- KMP算法
+- Trie树
+- AC自动机
 ### 6. 树
 - 树的定义
 - 树的抽象类型以及表示方法
 - 二叉树的定义
 - 二叉树的抽象类型和表示方法
+- 二叉树
+- 二叉查找树
+- 平衡二叉树
+- 递归树
 - LSM树
+- 红黑树
 	
 ### 7. 图
-[邻接表的创建](./DataStructure/Graph/邻接表.md) (数组 + 链表 = 邻接表)
+- 图的定义
+- Dijkstra最短路径算法
+- [邻接表的创建](./DataStructure/Graph/邻接表.md) (数组 + 链表 = 邻接表)
+
+### 8. 排序
+- [Asort 由TwoSum想到asort](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)
+- 冒泡排序
+- 插入排序
+- 选择排序
+- 快速排序
+- 归并排序
+- 桶排序
+- 时间复杂度和空间复杂度分析
+- 如何根据年龄给100万用户数据排序
+- 通用的高性能的排序函数
+
+### 9. 查找
+- 二分查找
+- 二分查找的应用和变形
+
+### 10. 跳表
+
+### 11.Hash Table
+
+### 12.堆
 
 ##  算法
 
@@ -69,17 +103,13 @@ Todo:
 
 - [Manacher's Algorithm - Linear Time Longest Palindromic Substring - Part 4](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/)
 
-### 排序算法
-- [Asort 由TwoSum想到asort](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)
--  
+### Hash算法
 
-### 查找算法
-- 二分查找
-- 二分查找的应用和变形
+### 贪心算法
 
+### 分治算法
 
-### 一致性hash算法
-
+### 动态规划
 
 
 ## 计算机网络
