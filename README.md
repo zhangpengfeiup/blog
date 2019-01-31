@@ -20,8 +20,12 @@
 ### 排序算法
 - [Asort 由TwoSum想到asort](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)
 
-### 一致性hash算法
+### 查找算法
+- 二分查找
+- 二分查找的应用和变形
 
+
+### 一致性hash算法
 
 ## 数据结构:
 Todo:
@@ -60,9 +64,6 @@ Todo:
 ### 7. 图
 [邻接表的创建](./DataStructure/Graph/邻接表.md) (数组 + 链表 = 邻接表)
 
-### 8.排序
-- 二分查找
-- 二分查找的应用和变形
 
 ### 计算机网络
 #### TCP/IP
@@ -155,8 +156,9 @@ Todo:
 - 态度：空杯心态，很强的学习能力和进取心
 
 ### 思考:
-   [由数据结构想到拼积木](./DataStructure/Think/由数据结构想到拼积木.md)
-   
+ - [由数据结构想到拼积木](./DataStructure/Think/由数据结构想到拼积木.md)
+ - 如何阅读源码
+ 
 ### Ask me
 - 接下来应该做什么可以继续提升？
 - 我在硬性技能（编码、架构）上有什么长处？
