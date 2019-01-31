@@ -17,10 +17,10 @@
 
 - [Manacher's Algorithm - Linear Time Longest Palindromic Substring - Part 4](https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/)
 
-
-
 ### 排序算法
 - [Asort 由TwoSum想到asort](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)
+
+### 一致性hash算法
 
 
 ## 数据结构:
@@ -72,13 +72,16 @@ Todo:
 - TCP的LISTEN状态是什么
 - TCP的CLOSE_WAIT状态是什么
 - 建立一个socket连接要经历哪些步骤
+- 你是如何理解TCP协议的
+- 滑动窗口
+- 粘包
 
 #### HTTP
 - 常见的HTTP状态码有哪些
 - 301和302有什么区别
 - 504和500有什么区别
 - HTTPS和HTTP有什么区别
-
+- 谈谈你所理解的HTTP协议？
 
 ### 数据存储
 #### MySQL
@@ -101,6 +104,8 @@ Todo:
 ### 操作系统
 - 进程和线程的区别
 - 什么是多线程
+- 线程间通信的多种方式
+
 
 ### 编程语言
 ##### Golang
@@ -137,14 +142,16 @@ Todo:
 - 谈一谈对微服务的理解
 - 如何进行限流
 - 文章的评论量非常大，比如说一篇热门文章有几百万的评论，设计一个后端服务，实现评论的时序展示与分页
+- 分库分表如何设计？垂直平分、水平拆分？
+- 业务ID的生成规则
 
+### 工程能力
+- 如何定位一个线上问题（CPU高负载）
 
 ### 成长
-- 自我介绍
-- 自己有什么缺点
-- 碰到过什么很挫败的事情么
-- 未来的职业规划是什么
-- 有什么想了解的
+- Self-examination（自我审视）
+- 反思自己
+- 职业规划是
 - 态度：空杯心态，很强的学习能力和进取心
 
 ### 思考:
