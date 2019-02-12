@@ -170,6 +170,9 @@ Todo:
 - Golang的逃逸分析是什么？怎么避免内存taoyi
 - Golang的GC触发时机是什么
 
+## 版本控制
+#### Git
+
 ## 中间件
 
 #### Kafka
