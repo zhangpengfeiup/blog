@@ -5,6 +5,8 @@
 Todo:
 
 ### 1 数组
+- 什么是数组？
+- 数组是如何实现随机访问的？
 - [使用malloc新建二维数组](./DataStructure/Array/%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84.md)
 - [ 数组中查找元素、添加元素的时间复杂度分析](./DataStructure/Array/数组中查找元素、添加元素的时间复杂度分析.md)
 - [实现一个支持动态扩容的数组](./DataStructure/Array/数组动态扩容.md)
