@@ -197,6 +197,8 @@ Todo:
 
 ## 编程语言
 #### C
+- 如何动态计算数组的大小:使用sizeof,sizeof(arr) / sizeof(arr[0])
+- typedef 的用法
 
 ##### PHP
 
