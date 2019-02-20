@@ -14,7 +14,7 @@ Todo:
 - [实现两个有序数组合并为一个有序数组](./DataStructure/Array/合并两个有序数组.md)
 
 ### 2 链表
-- 单链表
+- [单链表](./DataStructure/Link/单链表.md)
 - 循环链表
 - 双向链表
 - 单链表反转
@@ -199,6 +199,9 @@ Todo:
 
 ## 编程语言
 #### C
+- 如何动态计算数组的大小:使用sizeof,sizeof(arr) / sizeof(arr[0])
+- typedef 的用法
+
 
 ##### PHP
 
