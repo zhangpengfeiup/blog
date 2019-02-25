@@ -16,7 +16,7 @@ Todo:
 ### 2 链表
 - [单链表](./DataStructure/Link/单链表.md)
 - [单链表反转](./DataStructure/Link/单链表反转.md)
-- 两个有序链表的合并
+- [两个有序链表的合并](./DataStructure/Link/合并两个有序链表.md)
 - 求链表的中间结点（若长度为偶数，返回前面的节点）
 - 求链表的倒数第k个节点
 - 删除链表倒数第n个结点
@@ -363,4 +363,4 @@ Todo:
 
 [二叉树常见面试题](https://blog.csdn.net/LYHVOYAGE/article/details/82916652)
 
-[一位大牛的后端社招面试经历](https://github.com/aylei/interview)
+[一位大牛的后端社招面试经历] (https://github.com/aylei/interview)
