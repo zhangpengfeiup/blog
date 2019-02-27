@@ -17,8 +17,8 @@ Todo:
 - [单链表](./DataStructure/Link/单链表.md)
 - [单链表反转](./DataStructure/Link/单链表反转.md)
 - [两个有序链表的合并](./DataStructure/Link/合并两个有序链表.md)
-- [求链表的中间结点（若长度为偶数，返回前面的节点](./DataStructure/Link/求链表的中间节点.md)
-- 求链表的倒数第k个节点
+- [求链表的中间结点（若长度为偶数，返回前面的节点)](./DataStructure/Link/求链表的中间节点.md)
+- [求链表的倒数第k个节点](./DataStructure/Link/求链表的倒数第k个节点.md)
 - 删除链表倒数第n个结点
 - 判断链表中是否存在环
 - 求链表中环的入口节点
