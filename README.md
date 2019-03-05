@@ -220,7 +220,8 @@ Todo:
 
 ##### PHP
 
-##### Golang
+##### Go
+- [Go's Declaration Syntax](https://blog.golang.org/gos-declaration-syntax):这篇文章介绍了为什么Go使用不同的声明同时也类比了C语言
 - goroutine是怎么调度的
 - goroutine和kernel thread 之间是什么关系
 - Go 和 PHP 和 C 的区别，以及三者的GC
