@@ -223,7 +223,7 @@ Todo:
 ##### Go
 - [Go's Declaration Syntax](https://blog.golang.org/gos-declaration-syntax):这篇文章介绍了为什么Go使用不同的声明方式，同时也对比了C语言的声明方式
 - [Go Slices:usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
-- [Go Slice of the destinction between length and capacity](./Programe language/Go/Slice distinction between length and capacity.md)
+- [Go Slice of the destinction between length and capacity](https://github.com/zhangpengfeiup/blog/blob/master/Programe%20language/Go/Slice%20distinction%20between%20length%20and%20capacity.md)
 - goroutine是怎么调度的
 - goroutine和kernel thread 之间是什么关系
 - Go 和 PHP 和 C 的区别，以及三者的GC
