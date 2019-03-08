@@ -359,7 +359,7 @@ Todo:
 [科学上网左耳朵耗子](https://github.com/haoel/haoel.github.io#2-%E8%B4%AD%E4%B9%B0vps)
 
 
-[轻松在 VPS 搭建 Shadowsocks](https://www.diycode.cc/topics/738)（我现在使用的是这种方式，通过文章中的链接注册真的有优惠，送了我$50,我现在使用的时候有的时候不稳定会连接不上，但是可以使用的）
+[轻松在 VPS 搭建 Shadowsocks](https://www.diycode.cc/topics/738)（我现在使用的是这种方式，通过文章中的链接注册真的有优惠，送了我$50,我现在使用的时候有的时候不稳定会连接不上，但是是可以使用的，上手也比较快）
 
 [Vultr中文网](https://www.vultrgo.com/goumai/)
 
