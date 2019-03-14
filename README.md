@@ -213,14 +213,21 @@ Todo:
 
 
 ## 编程语言
-#### C
+### C
 - 如何动态计算数组的大小:使用sizeof,sizeof(arr) / sizeof(arr[0])
 - typedef 的用法
 
 
-##### PHP
+### PHP
 
-##### Go
+### Go
+
+#### Go基础学习:
+- [A tour of Go](https://tour.golang.org/welcome/1)
+- [Go by Example](https://gobyexample.com)
+
+
+#### Go相关问题:
 - [Go's Declaration Syntax](https://blog.golang.org/gos-declaration-syntax):这篇文章介绍了为什么Go使用不同的声明方式，同时也对比了C语言的声明方式
 - [Go Slices:usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
 - [Go Slice of the destinction between length and capacity](https://github.com/zhangpengfeiup/blog/blob/master/Programe%20language/Go/Slice%20distinction%20between%20length%20and%20capacity.md)
