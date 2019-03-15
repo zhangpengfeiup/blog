@@ -207,9 +207,14 @@ Todo:
 ## 数据处理与数据分析
 
 ## 操作系统
+
+### 基本知识
 - 进程和线程的区别
 - 什么是多线程
 - 线程间通信的多种方式
+
+### Linux
+- Linux中如何查找一个文件是否存在
 
 
 ## 编程语言
@@ -225,9 +230,15 @@ Todo:
 #### Go基础学习:
 - [A tour of Go](https://tour.golang.org/welcome/1)
 - [Go by Example](https://gobyexample.com)
-
+- [图书:Go程序设计语言](https://book.douban.com/subject/27044219/)
 
 #### Go相关问题:
+- Go的设计理念是什么？
+- Go的原理是什么？
+- 为什么要有Go这门语言呢？
+- Go语言有什么特点呢？
+- 它的优点是什么？缺点是什么？
+- Go适合什么场景下面使用？为什么适合呢？
 - [Go's Declaration Syntax](https://blog.golang.org/gos-declaration-syntax):这篇文章介绍了为什么Go使用不同的声明方式，同时也对比了C语言的声明方式
 - [Go Slices:usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
 - [Go Slice of the destinction between length and capacity](https://github.com/zhangpengfeiup/blog/blob/master/Programe%20language/Go/Slice%20distinction%20between%20length%20and%20capacity.md)
@@ -238,6 +249,8 @@ Todo:
 - Golang的逃逸分析是什么？怎么避免内存taoyi
 - Golang的GC触发时机是什么
 
+## 编程技巧
+- 条件判断比较多的情况下，将异常情况明显的显示出来，尽量不适用if-else 嵌套，可以直接if (true){异常处理} return 中断掉，这样逻辑不会那么复杂，而且代码比较清晰明了.
 
 ## 前端/客户端
 #### Vue
@@ -363,6 +376,8 @@ Todo:
 - 安全防范
 - 软件工程和上线
 - 学习一个技术，理解它背后的设计理念、原理和解决问题的方法，远远比技术本身是什么更重要.
+- 学会看官方文档
+
 ## 科学上网
 [科学上网左耳朵耗子](https://github.com/haoel/haoel.github.io)
 
@@ -382,6 +397,8 @@ Todo:
 《计算机网络》
 
 《数据库系统概念》
+
+《鸟哥的Linux私房菜》
 
 《数据结构与算法之美》（极客时间专栏）
 
