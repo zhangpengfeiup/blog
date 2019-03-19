@@ -216,6 +216,14 @@ Todo:
 ### Linux
 - Linux中如何查找一个文件是否存在
 
+- shell
+
+[学习Shell Scripts 鸟哥的Linux私房菜](http://cn.linux.vbird.org/linux_basic/0340bashshell-scripts.php)
+
+[你可能不知道的SHELL from 酷壳](https://coolshell.cn/articles/8619.html)
+
+[图书:Linux命令行与shell脚本编程大全 第3版 to read
+](https://book.douban.com/subject/26854226/)
 
 ## 编程语言
 ### C
