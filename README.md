@@ -354,6 +354,7 @@ Todo:
  - 如何阅读源码
  - [生活无需对比，没有对比就没有伤害，于代码和工程，需对比，反思、调整、打磨、改进、交付](https://github.com/zhangpengfeiup/blog/blob/master/Thinking/%E7%94%9F%E6%B4%BB%E6%97%A0%E9%9C%80%E5%AF%B9%E6%AF%94%EF%BC%8C%E4%BB%A3%E7%A0%81%E9%9C%80%E8%A6%81%E6%80%9D%E8%80%83.md)
 - [继「做正确的事，等着被开除」后，与左耳朵耗子问答 | 新知 · 实录](https://mp.weixin.qq.com/s?__biz=MzUyOTA1NTkzNw==&mid=2247484417&idx=1&sn=316f9f6d6ac7cdca97123815a67a665a&chksm=fa67adafcd1024b948caed0e5528c4817a7ef2b1b1a3ab8da34e0ff4231b28c2659ee9951112#rd)
+- [如何做LeetCode](./Thinking/How to do Leetcode.md)
 
 ## Ask Myself
 - 接下来应该做什么可以继续提升？
