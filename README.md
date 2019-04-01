@@ -34,7 +34,7 @@ Todo:
 
 ### 3. 栈
 - 栈的基本概念
-- 顺序栈
+- [顺序栈](https://github.com/zhangpengfeiup/blog/blob/master/DataStructure/Stack/%E9%A1%BA%E5%BA%8F%E6%A0%88.md)
 - 链式栈
 - 栈是否为空
 - 括号匹配
