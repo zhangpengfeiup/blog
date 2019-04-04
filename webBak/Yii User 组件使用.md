@@ -1,5 +1,3 @@
-[TOC]
-
 ### 想要实现的需求(从哪里来？）
 
 目的：Yii使用Yii::$app->user->id获取用户的user_id，它是从session中或者cookie中获取的，因为我们现在使用的是JWT的验证方式，也就是我们获取用户的user_id和相关信息是从客户端传过来的JWT的token中获取的，所以我们就需要修改Yii2.0User组件中的代码来实现我们的需求。
@@ -13,7 +11,7 @@
 
 流程图如下：
 
-![user组件](./images/user组件.png)
+![user组件](https://github.com/zhangpengfeiup/blog/blob/master/webBak/images/user%E7%BB%84%E4%BB%B6.jpg)
 
 
 1.Yii::$app->user->id()获取用户id，这一步其实调用的是User组件，（为什么Yii::$app 可以访问User组件具体我还没有看，先不聊这一块了）又因为user组件没有id这个属性，我猜是不是调用的getId()这个方法，然后父类是否实现了__get() 的这个方法，向上找,在Component这个类中找到了__get的方法（注:method_exists这个方法是忽略大小写的，所以我们可以找到/yii/web/User 里面的getId()这个方法）
