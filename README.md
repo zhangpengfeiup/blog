@@ -232,6 +232,10 @@ Todo:
 
 
 ### PHP
+- [php官网](https://php.net/)
+- [PHP The Right Way](https://phptherightway.com/)
+- [Modern PHP](https://book.douban.com/subject/26635862/)
+- [PHP实战](https://book.douban.com/subject/4196842/)
 
 ### Go
 
