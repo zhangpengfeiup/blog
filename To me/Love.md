@@ -5,4 +5,6 @@ I love you not because of who you are. but because of who I am when I am with yo
 我喜欢你，不是因为你有多牛逼
 而是和你在一起时，我是我自己。
 
+相信自己相信她
+
 
