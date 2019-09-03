@@ -1,14 +1,24 @@
+-  What is JSON Web Token?
+
+  
+
+    JSON Web Token(JWT) 是一个开放标准，并且定义了一个组合和自我信任的方式为了传输信息在各个部分之间作为一个JSON 对象。这个信息可以验证和被信任因为它是有数字签名的。JWT 可以用密钥（通过使用HMAC 算法）或者 公钥和私钥对通过RSA或者ECDSA
+
+  
+
+  ​      尽管 JWT 可以用来加密为了提高隐私在每个部分之间，我们应该专注于对token进行分发。被签名的token可以验证包含的声明，然而加密的token隐藏在这些声明的后面。当token被签名通过 公钥私钥对的形式，这个签名也可以解密仅仅这一部分拥有这个私钥
+
+  
+
 - 什么时候你应该用 json web  token?
 
   ​	这里是jwt比较有用的一些场景
 
-  authorization: 这个是一个常见的场景对于使用jwt. 一旦用户登录了，每个子请求将包含JWT,允许用户进入路由、服务、静态资源这些被token允许的场景。单点登录是当下广泛使用jwt的一个场景，因为它的小的 overhead 和它很方便的使用通过不同的域名
+  authorization: 这个是一个常见的场景对于使用jwt. 一旦用户登录了，每个子请求将包含JWT,允许用户进入路由、服务、静态资源这些被token允许的场景。单点登录是当下广泛使用jwt的一个场景，因为它的开销很小，并且能够在不同的域中轻松使用
 
 - 信息交换
 
-    jwt 是一个很好的方式在不同的地方之间安全的传递消息的一种方式。因为JWT可以被登录。例如：使用公钥私钥对，你可以确认发送者的身份信息，除了这样，当签名被声明在头部和payload
-
-  中，你也可以确认内容是否被分割。
+  jwt 是一个很好的方式在不同的地方之间安全的传递消息的一种方式。因为JWT可以被登录。例如：使用公钥私钥对，你可以确认发送者的身份信息，除了这样，由于使用标头和有效负载计算签名，你还可以验证内容是否未被篡改。
 
 - JWT 的数据结构有哪些？
 
@@ -36,19 +46,17 @@ xxxx.yyyy.zzzz
 
 接下来，这个json是Base64Url 加密组成JWT的第一部分
 
-
-
 - Payload
 
    token的第二部分是payload,它包含了claims. claims 是一个声明关于实体(通常，这个用户)和一些额外的数据。这里是三部分claims的声明：registered,public,和private cliams.
 
-  Registered claims:这里有有一些提前定义好的claims这些不是mandatory 强制的但是是建议的，为了提供一个集合或者是有用的，内部操作的claims. 他们其中的一些是:iss(issuer),exp(expiration time),sub(subject),aud(audience),and others.
+  - Registered claims:这里有有一些提前定义好的claims这些不是mandatory 强制的但是是建议的，为了提供一个集合或者是有用的，内部操作的claims. 他们其中的一些是:iss(issuer),exp(expiration time),sub(subject),aud(audience),and others.
 
-  注意claim 名字是一个只允许3个字符，因为jwt是比较简洁的。
+  注意claim 名字是一个只允许3个字符，因为jwt是比较简洁（紧凑）的。
 
-  - Public claims: 这些可以用来定义通过使用JWTS.但是为了避免collisions 他们应该被定义在IANA JSON Web Token Registry 或者被定义作为URI他们包含 collision 相关的命名
+  - Public claims: 这些可以用来定义通过使用JWTS.但是为了避免collisions冲突 他们应该被定义在IANA JSON Web Token Registry 或者将其定义为包含防冲突命名空间的URI
 
-  - Private cliams:这些客户声明被创建在部分之间用来分享信息并且不允许在registered 或者是public claims.
+  - Private cliams:这些客户声明被创建在部分之间用来分享信息并既不是注册声明也不是公开声明
 
   一个 payload的例子如下所示:
 
@@ -96,9 +104,11 @@ xxxx.yyyy.zzzz
 
 - JSON Web tokens 是怎么工作的？
 
-  在 authentication,当用户成功登陆通过使用credentials,一个Json Web Token 将要返回。由于token 是 credentials,greate care must be taken to prevent security issues.通常来说，你不应该长时间的保留tokens。
+  在 authentication,当用户成功登陆通过使用credentials（凭据）,一个Json Web Token 将要返回。由于token 是 credentials（凭证）,greate care must be taken to prevent security issues因此必须非常小心防止出现安全问题.通常来说，你不应该将令牌保留的时间超过要求。
 
-  你不应该存储敏感数据在浏览器的storage由于缺少安全性
+  
+
+  由于缺少安全性，你不应该存储敏感会话数据在浏览器存储中
 
   
 
@@ -106,13 +116,11 @@ xxxx.yyyy.zzzz
 
   
 
-  
-
   Authorization:Bearer <token>
 
   
 
-  就是这样，在一些例子中，一些无状态的mechanism. 这个服务访问受保护的路由将要检查不合法的JWT在Authoriztion 头部中，并且如果它是当前的，这个用户将要由于进入受保护的路由。如果JWT包含不被允许的数据，访问数据库的权限或者合适的操作可能被reduced取消，因为这个在这个例子中不被允许。
+  在某些情况下，一些无状态的authoriztion mechanism 授权机制. 服务器的受保护路由将在Authorization标头中检查有效的JWT,如果存在，则允许用户访问受保护的资源。如果JWT包含必要的数据，则可以减少查询数据库以进行某些操作的需要，尽管可能并非总是如此。
 
   
 
@@ -126,7 +134,7 @@ xxxx.yyyy.zzzz
   2. 当这个authoriztion 被授权，这个authorization 服务器返回一个可以进行访问的token给客户端
   3. 这个客户端可以使用token进入受保护的资源（像api一样）
 
-  Do not that signed tokens, 所有的信息包含在token里面的都暴露给用户或者其他部分，尽管它是不可以改变的。它意味着你不能放私密的信息在token里面
+  Do not that signed tokens（请注意，使用签名令牌）令牌中包含 的所有的信息即使他们无法更改，这意味着您不应该在令牌中放置秘密信息。
 
 - 为什么我们应该使用JSON Web Tokens？
 
