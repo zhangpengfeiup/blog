@@ -84,7 +84,7 @@ Todo:
 
 ### 8. 排序
 - [Asort 由TwoSum想到asort](https://github.com/zhangpengfeiup/leetcode/blob/master/algorithms/Two%20Sum/Two%20Sum.c)
-- 冒泡排序
+- [冒泡排序](./Algorithm/BubbleSort.c)
 - 插入排序
 - 选择排序
 - 快速排序
