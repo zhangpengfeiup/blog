@@ -1,5 +1,7 @@
 #### Algorithm:
 二叉树的前序遍历
+
+```
  if (!root) {
             return {};
         }
@@ -22,7 +24,11 @@
         
         return res;
     }
+```
+
 上面的方式可能更加容易想出来，下面这个代码更加的通用
+
+```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -44,6 +50,7 @@ public:
         return res;
     }
 };
+```
 #### Review:
 
 #### tips:
